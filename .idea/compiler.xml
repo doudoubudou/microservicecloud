@@ -11,5 +11,8 @@
         <module name="microservicecloud-provider-dept-8001" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservicecloud" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
