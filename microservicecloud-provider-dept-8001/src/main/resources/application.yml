@@ -9,7 +9,7 @@ mybatis:
 
 spring:
   application:
-    name: microservicecloud-dept
+    name: microservicecloud-dept-8001
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
@@ -21,3 +21,8 @@ spring:
       initial-size: 5                                       # 初始化连接数
       max-total: 5                                          # 最大连接数
       max-wait-millis: 200                                  # 等待连接获取的最大超时时间
+#下面这个是指向Eureka注册中心,,,这样就注册成功了..
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
