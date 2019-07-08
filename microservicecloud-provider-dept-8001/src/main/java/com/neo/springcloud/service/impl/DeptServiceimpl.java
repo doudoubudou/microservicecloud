@@ -1,10 +1,10 @@
-package com.hhf.springcloud.service.impl;
-import com.hhf.springcloud.entities.Dept;
-import com.hhf.springcloud.dao.DeptDao;
+package com.neo.springcloud.service.impl;
+import com.neo.springcloud.entities.Dept;
+import com.neo.springcloud.dao.DeptDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
-import com.hhf.springcloud.service.DeptService;
+import com.neo.springcloud.service.DeptService;
 
 import java.util.List;
 

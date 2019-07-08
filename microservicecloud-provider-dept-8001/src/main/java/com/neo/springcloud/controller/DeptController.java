@@ -1,9 +1,9 @@
-package com.hhf.springcloud.controller;
+package com.neo.springcloud.controller;
 
-import com.hhf.springcloud.entities.Dept;
+import com.neo.springcloud.entities.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.hhf.springcloud.service.DeptService;
+import com.neo.springcloud.service.DeptService;
 
 import java.util.List;
 

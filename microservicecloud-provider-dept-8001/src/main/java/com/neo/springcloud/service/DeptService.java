@@ -1,6 +1,6 @@
-package com.hhf.springcloud.service;
+package com.neo.springcloud.service;
 
-import com.hhf.springcloud.entities.Dept;
+import com.neo.springcloud.entities.Dept;
 
 import java.util.List;
 

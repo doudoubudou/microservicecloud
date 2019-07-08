@@ -1,4 +1,4 @@
-package com.hhf.springcloud.cfgbeans;
+package com.neo.springcloud.cfgbeans;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

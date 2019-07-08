@@ -1,6 +1,6 @@
-package com.hhf.springcloud.dao;
+package com.neo.springcloud.dao;
 
-import com.hhf.springcloud.entities.Dept;
+import com.neo.springcloud.entities.Dept;
 import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 

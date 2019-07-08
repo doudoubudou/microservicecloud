@@ -1,6 +1,6 @@
-package com.hhf.springcloud.controller;
+package com.neo.springcloud.controller;
 
-import com.hhf.springcloud.entities.Dept;
+import com.neo.springcloud.entities.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
