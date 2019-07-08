@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.hhf.springcloud</groupId>
+        <groupId>com.neo.springcloud</groupId>
         <artifactId>microservicecloud</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <!-- 自己定义的api -->
-            <groupId>com.hhf.springcloud</groupId>
+            <groupId>com.neo.springcloud</groupId>
             <artifactId>microservicecloud-api</artifactId>
             <version>${project.version}</version>
         </dependency>

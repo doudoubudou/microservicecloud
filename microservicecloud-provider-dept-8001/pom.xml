@@ -4,7 +4,7 @@
     <packaging>pom</packaging>
 
     <parent>
-        <groupId>com.hhf.springcloud</groupId>
+        <groupId>com.neo.springcloud</groupId>
         <artifactId>microservicecloud</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -14,7 +14,7 @@
     <dependencies>
         <!-- 引入自己定义的api通用包，可以使用Dept部门Entity -->
         <dependency>
-            <groupId>com.hhf.springcloud</groupId>
+            <groupId>com.neo.springcloud</groupId>
             <artifactId>microservicecloud-api</artifactId>
             <version>${project.version}</version>
         </dependency>
