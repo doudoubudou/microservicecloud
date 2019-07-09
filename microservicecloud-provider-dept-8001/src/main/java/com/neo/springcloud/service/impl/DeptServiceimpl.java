@@ -9,7 +9,6 @@ import com.neo.springcloud.service.DeptService;
 import java.util.List;
 
 @Service
-@Primary
 public class DeptServiceimpl implements DeptService {
     @Autowired
     private DeptDao dao;
