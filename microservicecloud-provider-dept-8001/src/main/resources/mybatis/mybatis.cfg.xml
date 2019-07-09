@@ -28,5 +28,7 @@
             </dataSource>
         </environment>
     </environments>-->
-
+    <settings>
+        <setting name="cacheEnabled" value="true" /><!-- 二级缓存开启 -->
+    </settings>
 </configuration>
