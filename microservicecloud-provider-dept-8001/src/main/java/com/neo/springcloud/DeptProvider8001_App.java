@@ -1,19 +1,17 @@
 package com.neo.springcloud;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureJdbc;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @EnableEurekaClient
 @SpringBootApplication
-@MapperScan("com.neo.springcloud.dao")
-@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+@AutoConfigureJdbc
 public class DeptProvider8001_App {
 
     public static void main(String[] args) {
+
         SpringApplication.run(DeptProvider8001_App.class,args);
     }
 }
