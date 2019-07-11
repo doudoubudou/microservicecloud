@@ -4,11 +4,16 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
+import java.io.Serializable;
+
 //@AllArgsConstructor //全参构造注解
 @Data    //set设置值/get获取值注解
 @NoArgsConstructor //无参数构造注解
 @Accessors(chain=true) //链式访问
-public class Dept {
+public class Dept implements Serializable {
+
+    private static final long serialVersionUID = -1430528556730499366L;
+
     //主键
     private Long deptno;
     //部门名称
